@@ -1,0 +1,26 @@
+.screen-message {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .notification-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .notification-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .notification-button:active {
+    background-color: #003f7f;
+  }
+  

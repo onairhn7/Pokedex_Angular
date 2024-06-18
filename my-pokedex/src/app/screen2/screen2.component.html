@@ -1,1 +1,19 @@
-<p>screen2 works!</p>
+<h3 class="pokemon-header">Conteo de pokemones</h3>
+<p class="pokemon-count">Tenemos un total de {{limite}}</p>
+
+<div class="pokemon-list">
+    <div *ngFor="let pokemon of pokemons">
+    <a href={{pokemon.url}}>{{pokemon.name}}</a>
+
+    </div>
+</div>
+
+<div class="pokemon-details">
+    <div *ngFor="let pokemon of detallesPokemon">
+    <h5>{{pokemon.id}} - {{pokemon.name}}</h5>
+    <img src={{pokemon.sprites.front_default}} alt="imagen pokemon">
+
+    </div>
+</div>
+
+<button class="notification-button" (click)="agregarNotifiacacionesScreen1()">TOCAME</button>
