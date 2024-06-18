@@ -1,8 +1,8 @@
 export interface IDetallePokemon{
-    id: number 
+    base_experience: number 
     name: string
     sprites: {
-        front_default: string
+        back_default: string
     }
 
 }
